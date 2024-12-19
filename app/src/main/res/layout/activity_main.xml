@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextMeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter meters"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextKilometers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter kilometers"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextMiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter miles"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter feet"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextYards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter yards"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textViewMeters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meters: " />
+
+    <TextView
+        android:id="@+id/textViewKilometers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kilometers: " />
+
+    <TextView
+        android:id="@+id/textViewMiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miles: " />
+
+    <TextView
+        android:id="@+id/textViewFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feet: " />
+
+    <TextView
+        android:id="@+id/textViewYards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yards: " />
+</LinearLayout>
